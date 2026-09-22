@@ -55,5 +55,5 @@
 
 13. Результаты
 
-![](docs/ex2/СМ1.png)
-![](docs/ex2/СМ2.png)
+![](docs/ex2/СМ1.jpg)
+![](docs/ex2/СМ2.jpg)
