@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-"""Тесты для lab4_fast.py (запуск: python tests_lab4_fast.py)."""
 import copy
 import itertools
 import math
