@@ -136,6 +136,7 @@ if __name__ == "__main__":
     tf = get_function(a.func)
     out, res = run_once(tf, 1, a.nfe)
     print(f"x* = ({out['x1']:.6f}, {out['x2']:.6f})  f = {out['f']:.10g}  время = {out['time_s']:.4f} с")
+    print("запусков NM:", len(res["snapshots"][-1][2]))
     X1, X2, Z = grid(tf)
     plot_contour(tf, res, X1, X2, Z)
     plot_convergence(tf, res)
